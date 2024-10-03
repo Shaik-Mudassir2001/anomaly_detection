@@ -77,4 +77,5 @@ Unit tests are included in the `tests/` directory to verify the behavior of the 
   python -m unittest tests/test_anomaly_detection.py
 
 Or run all **tests** in the tests directory:
+
   python -m unittest discover -s tests
