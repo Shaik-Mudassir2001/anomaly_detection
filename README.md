@@ -74,10 +74,8 @@ Unit tests are included in the `tests/` directory to verify the behavior of the 
 
 **Run the tests**: You can run each test file individually:
 
-  python -m unittest tests/test_data_stream.py
-
-  python -m unittest tests/test_anomaly_detection.py
+ ```python -m unittest tests/test_data_stream.py```
+ ```python -m unittest tests/test_anomaly_detection.py```
 
 Or run all **tests** in the tests directory:
-
-  python -m unittest discover -s tests
+  ```python -m unittest discover -s tests```
